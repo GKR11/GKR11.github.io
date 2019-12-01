@@ -1,0 +1,71 @@
+.name {
+    font-family: 'Prata', serif;
+    font-size: 15px;
+    color: cornsilk;
+    position: absolute; left: 0%; top: 90%;
+    background: orange;
+}
+
+
+
+
+
+
+.os {
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: red;
+    }
+    
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 0%; bottom: 0%; top: 0%;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
+body {
+    width: 1440px;
+    height: 800px;
+    margin: 0;
+    background-image: url(https://i.ibb.co/8mJQsk3/texture-fon.jpg);
+}
